@@ -8,6 +8,7 @@
 
 import Foundation
 import Swinject
+import SwinjectStoryboard
 
 class MainAssembler {
     
@@ -15,7 +16,7 @@ class MainAssembler {
         return assembler.resolver
     }
     
-    private let assembler = Assembler()
+    private let assembler = Assembler(container: SwinjectStoryboard.defaultContainer)
     
     init() {
         assembler.apply(assembly: SPDLocationManagerAssembly())
@@ -23,6 +24,7 @@ class MainAssembler {
         assembler.apply(assembly: SPDLocationProviderAssembly())
         assembler.apply(assembly: SPDLocationSpeedProviderAssembly())
         assembler.apply(assembly: SPDLocationSpeedCheckerAssembly())
-        
+     
+        assembler.apply(assembly: ViewControllerAssembly())
     }
 }

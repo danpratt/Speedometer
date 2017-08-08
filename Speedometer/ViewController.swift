@@ -8,6 +8,8 @@
 
 import UIKit
 import CoreLocation
+import Swinject
+import SwinjectStoryboard
 
 private let maxDisplayableSpeed: CLLocationSpeed = 40  // m/s so 144 km/h
 
@@ -118,6 +120,15 @@ extension Double {
 extension CLLocationSpeed {
     var asKMH: Double {
         return self * 3.6 // 1 m/s = 3.6 km/h
+    }
+}
+
+class ViewControllerAssembly: Assembly {
+    func assemble(container: Container) {
+        container.storyboardInitCompleted(ViewController.self) { (r, c) in
+            c.speedProvider = r.resolve(SPDLocationSpeedProvider.self)!
+            c.speedChecker = r.resolve(SPDLocationSpeedChecker.self)!
+        }
     }
 }
 
