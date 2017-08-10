@@ -31,6 +31,8 @@ class SPDDefaultLocationProvider {
         self.locationAuthorization = locationAuthorization
         
         locationManager.delegate = self
+        
+        setupNotifications()
     }
     
     deinit {
