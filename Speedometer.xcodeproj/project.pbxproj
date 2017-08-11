@@ -21,6 +21,7 @@
 		6565CD891F356B7E005D70B8 /* SPDLocationProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6565CD841F356B7E005D70B8 /* SPDLocationProvider.swift */; };
 		6565CD8A1F356B7E005D70B8 /* SPDLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6565CD851F356B7E005D70B8 /* SPDLocationManager.swift */; };
 		6565CD8B1F356B7E005D70B8 /* SPDLocationAuthorization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6565CD861F356B7E005D70B8 /* SPDLocationAuthorization.swift */; };
+		656FF0EC1F3E225D008B34C5 /* SPDLocationSpeedProviderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 656FF0EB1F3E225D008B34C5 /* SPDLocationSpeedProviderTests.swift */; };
 		6598A7D31F3A1EEA004027A4 /* MainAssembler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6598A7D21F3A1EEA004027A4 /* MainAssembler.swift */; };
 		65D8398B1F3B79A700FAFE53 /* SPDLocationManagerMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D8398A1F3B79A700FAFE53 /* SPDLocationManagerMock.swift */; };
 		65D8398D1F3B7AA900FAFE53 /* SPDLocationAuthorizationMock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D8398C1F3B7AA900FAFE53 /* SPDLocationAuthorizationMock.swift */; };
@@ -76,6 +77,7 @@
 		6565CD841F356B7E005D70B8 /* SPDLocationProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPDLocationProvider.swift; sourceTree = "<group>"; };
 		6565CD851F356B7E005D70B8 /* SPDLocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPDLocationManager.swift; sourceTree = "<group>"; };
 		6565CD861F356B7E005D70B8 /* SPDLocationAuthorization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPDLocationAuthorization.swift; sourceTree = "<group>"; };
+		656FF0EB1F3E225D008B34C5 /* SPDLocationSpeedProviderTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPDLocationSpeedProviderTests.swift; sourceTree = "<group>"; };
 		6598A7D21F3A1EEA004027A4 /* MainAssembler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainAssembler.swift; sourceTree = "<group>"; };
 		65D8398A1F3B79A700FAFE53 /* SPDLocationManagerMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPDLocationManagerMock.swift; sourceTree = "<group>"; };
 		65D8398C1F3B7AA900FAFE53 /* SPDLocationAuthorizationMock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SPDLocationAuthorizationMock.swift; sourceTree = "<group>"; };
@@ -219,6 +221,7 @@
 			children = (
 				65D839991F3B7E7000FAFE53 /* SPDLocationAuthorizationTests.swift */,
 				653041E81F3CBEF600CFD4B0 /* SPDLocationProviderTests.swift */,
+				656FF0EB1F3E225D008B34C5 /* SPDLocationSpeedProviderTests.swift */,
 			);
 			path = Location;
 			sourceTree = "<group>";
@@ -553,6 +556,7 @@
 				65D839951F3B7D6700FAFE53 /* SPDLocationSpeedCheckerDelegateMock.swift in Sources */,
 				65D8398F1F3B7B5100FAFE53 /* SPDLocationAuthorizationDelegateMock.swift in Sources */,
 				65D839931F3B7C4E00FAFE53 /* SPDLocationConsumerMock.swift in Sources */,
+				656FF0EC1F3E225D008B34C5 /* SPDLocationSpeedProviderTests.swift in Sources */,
 				653041E91F3CBEF600CFD4B0 /* SPDLocationProviderTests.swift in Sources */,
 				65D839971F3B7DAE00FAFE53 /* SPDLocationSpeedProviderDelegateMock.swift in Sources */,
 				65D839911F3B7BE500FAFE53 /* SPDLocationProviderMock.swift in Sources */,
