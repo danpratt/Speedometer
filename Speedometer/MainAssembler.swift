@@ -26,5 +26,9 @@ class MainAssembler {
         assembler.apply(assembly: SPDLocationSpeedCheckerAssembly())
      
         assembler.apply(assembly: ViewControllerAssembly())
+        
+        if ProcessInfo.processInfo.arguments.contains("UITests") {
+            assembler.apply(assembly: SPDLocationManagerUITestMockAssembly())
+        }
     }
 }
