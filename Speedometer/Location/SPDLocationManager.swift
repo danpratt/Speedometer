@@ -41,6 +41,9 @@ class SPDLocationManagerProxy: NSObject {
         self.locationManager = locationManager
         
         super.init()
+        
+        locationManager.delegate = self
+        
     }
 }
 

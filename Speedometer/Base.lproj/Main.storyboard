@@ -62,7 +62,11 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kDe-qp-g7F" customClass="UIBorderedButton" customModule="Speedometer" customModuleProvider="target">
-                                        <rect key="frame" x="282" y="29" width="77" height="30"/>
+                                        <rect key="frame" x="274" y="24" width="85" height="35"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="35" id="JKz-Ch-YQs"/>
+                                            <constraint firstAttribute="width" constant="85" id="x99-ne-3Rs"/>
+                                        </constraints>
                                         <state key="normal" title="Max Speed">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
@@ -100,6 +104,7 @@
                         <outlet property="speedViewHeightConstraint" destination="VVC-28-P1D" id="SBN-32-Yzl"/>
                         <outletCollection property="speedLabels" destination="j0a-ZK-Ndv" collectionClass="NSMutableArray" id="dZn-zf-zd9"/>
                         <outletCollection property="colorableViews" destination="bOF-qh-ExO" collectionClass="NSMutableArray" id="kYC-W8-ZZf"/>
+                        <outletCollection property="speedLabels" destination="70Z-tU-Met" collectionClass="NSMutableArray" id="m4W-ix-nA6"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
