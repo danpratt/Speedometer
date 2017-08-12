@@ -105,6 +105,9 @@
                         <outletCollection property="speedLabels" destination="j0a-ZK-Ndv" collectionClass="NSMutableArray" id="dZn-zf-zd9"/>
                         <outletCollection property="colorableViews" destination="bOF-qh-ExO" collectionClass="NSMutableArray" id="kYC-W8-ZZf"/>
                         <outletCollection property="speedLabels" destination="70Z-tU-Met" collectionClass="NSMutableArray" id="m4W-ix-nA6"/>
+                        <outletCollection property="colorableViews" destination="70Z-tU-Met" collectionClass="NSMutableArray" id="wHL-aO-Yo4"/>
+                        <outletCollection property="colorableViews" destination="XYB-m1-m0d" collectionClass="NSMutableArray" id="dlP-g7-FMz"/>
+                        <outletCollection property="colorableViews" destination="kIq-1P-wiw" collectionClass="NSMutableArray" id="GEZ-aJ-iKk"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
