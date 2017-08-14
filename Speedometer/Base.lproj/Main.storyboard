@@ -23,6 +23,9 @@
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="62" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="70Z-tU-Met">
                                 <rect key="frame" x="16" y="531" width="116.5" height="120"/>
+                                <accessibility key="accessibilityConfiguration" identifier="SpeedLabelBlue">
+                                    <accessibilityTraits key="traits" none="YES"/>
+                                </accessibility>
                                 <fontDescription key="fontDescription" type="system" pointSize="100"/>
                                 <color key="textColor" red="0.0048598507420000003" green="0.096086271109999996" blue="0.57499289509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
@@ -57,6 +60,9 @@
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="62" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="j0a-ZK-Ndv">
                                         <rect key="frame" x="16" y="-61" width="116.5" height="120"/>
+                                        <accessibility key="accessibilityConfiguration" identifier="SpeedLabelWhite">
+                                            <accessibilityTraits key="traits" none="YES"/>
+                                        </accessibility>
                                         <fontDescription key="fontDescription" type="system" pointSize="100"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
@@ -76,6 +82,7 @@
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.0048598507420000003" green="0.096086271109999996" blue="0.57499289509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <accessibility key="accessibilityConfiguration" identifier="SpeedView"/>
                                 <constraints>
                                     <constraint firstItem="LF4-dw-sj3" firstAttribute="leading" secondItem="kIq-1P-wiw" secondAttribute="leading" constant="22" id="0Yc-77-tkH"/>
                                     <constraint firstAttribute="bottom" secondItem="j0a-ZK-Ndv" secondAttribute="bottom" constant="16" id="Oiv-ov-OBr"/>
@@ -88,6 +95,7 @@
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <accessibility key="accessibilityConfiguration" identifier="RootView"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="XYB-m1-m0d" secondAttribute="trailing" constant="16" id="8Pq-Wz-9Mf"/>
                             <constraint firstItem="kIq-1P-wiw" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="FT3-0e-jn4"/>

@@ -47,6 +47,10 @@ extension AppDelegate: UIApplicationDelegate {
         
         setupWindow()
         
+        if ProcessInfo.processInfo.arguments.contains("UITests") {
+            UIApplication.shared.keyWindow?.layer.speed = 100
+        }
+        
         locationAuthorization.checkAuthorization()
         
         return true
